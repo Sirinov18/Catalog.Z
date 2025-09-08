@@ -34,6 +34,8 @@
 
 .nav-img {
     position: relative;
+    width: 100%;
+    height: auto;
 }
 
 .search-box {
@@ -96,12 +98,13 @@
     width: 356px;
     height: 200px;
 }
+
 .custom-card {
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
     background: #fff;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
     text-align: center;
 }
@@ -114,7 +117,7 @@
 
 .custom-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 .custom-card .card-body {
@@ -132,20 +135,24 @@
     color: #666;
     margin: 0;
 }
+
 .buttons {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 120px 15px;
 
-} 
-.buttons .previous:hover{
-  cursor: not-allowed;
+}
+
+.buttons .previous:hover {
+    cursor: not-allowed;
 
 }
-.buttons .previous{
-  opacity:0.6;
+
+.buttons .previous {
+    opacity: 0.6;
 }
+
 .buttons button {
     width: 60px;
     height: 60px;
@@ -165,6 +172,7 @@
     background-color: #EEEEEE;
     color: #999999;
 }
+
 .footer {
     background-color: #f8f9fa;
     border-top: 1px solid #ddd;
@@ -217,5 +225,5 @@
 }
 
 .social-icons a:hover {
-    color: #009999;
+    color: #009999;
 }
